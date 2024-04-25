@@ -8,12 +8,12 @@ function loadPage(pageIndex) {
 }
 
 function nextPage() {
-	currentPageIndex = currentPageIndex + 1;
+	currentPageIndex = (currentPageIndex + 1) % pages.length;
 	loadPage(currentPageIndex);
 }
 
 function prevPage() {
-	currentPageIndex = currentPageIndex - 1;
+	currentPageIndex = (currentPageIndex - 1 + pages.length) % pages.length;
 	loadPage(currentPageIndex);
 }
 
