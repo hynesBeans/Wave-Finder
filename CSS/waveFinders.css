@@ -1,0 +1,88 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.backgroundImage {
+	background-image: linear-gradient(rgba(91, 189, 238, 0.5), rgba(91, 189, 238, 0.5)), url("../images/backgroundImage.jpg");
+	
+	height: 100%;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.exit {
+	font-size: 36px;
+	
+	position: absolute;
+	top: 35px;
+	left: 16px;
+}
+.exit:hover {
+	transform: scale(1.5);
+}
+
+.likedBeach {
+	font-size: 36px;
+	
+	position: absolute;
+	top: 35px;
+	right: 16px;
+}
+.likedBeach:hover {
+	transform: scale(1.5);
+}
+
+.filters {
+	font-size: 36px;
+	
+	position: absolute;
+	top: 35px;
+	right: 75px;
+}
+.filters:hover {
+	transform: scale(1.5);
+}
+
+.homepage {
+	font-size: 36px;
+	
+	position: absolute;
+	top: 35px;
+	right: 75px;
+}
+.homepage:hover {
+	transform: scale(1.5);
+}
+
+.homepageLikedPage {
+	font-size: 36px;
+	
+	position: absolute;
+	top: 35px;
+	right: 16px;
+
+}
+.homepageLikedPage:hover {
+	transform: scale(1.5);
+}
+
+.heading {
+	background: rgba(87, 169, 211, 0.7);
+	padding: 5px;
+	width: 250px;
+	height: 75px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	line-height: 75px;
+	color: rgb(53, 20, 159);
+	font-weight: bold;
+	font-size: 2.3em;
+	text-align: center;
+}
+

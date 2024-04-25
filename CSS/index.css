@@ -1,0 +1,48 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.backgroundImage {
+	background-image: linear-gradient(rgba(91, 189, 238, 0.5), rgba(91, 189, 238, 0.5)), url("../images/backgroundImage.jpg");
+	
+	height: 100%;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.foregroundInfo {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+.foregroundInfo h1 {
+	background: rgba(87, 169, 211, 0.7);
+	font-size: 3em;
+}
+
+.foregroundInfo p {
+	background: rgba(87, 169, 211, 0.7);
+	font-size: 1.6em;
+}
+
+.foregroundInfo nav {
+	background: rgba(87, 169, 211, 0.7);
+	
+	line-height: 100px;
+	color: black;
+	font-weight: bold;
+	font-size: 2.3em;
+	text-align: center;
+}
+
+.foregroundInfo nav img:hover {
+	transform: scale(1.2);
+}

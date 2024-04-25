@@ -1,32 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+	
+		<meta charset="UTF-8">
 		<title>Wave Finder</title>
+		<link rel="stylesheet" href="CSS/waveFinders.css">
+		<script src="https://kit.fontawesome.com/149a9296f7.js" crossorigin="anonymous"></script>
+		
 	</head>
 	
-	<body>
-		<p>
-			This is wave finder.
-		</p>
-		
-		<header>
-			<h1>
-				List of connected files
-			</h1>
-		</header>
-		
-		<nav>
-			<ul>
-				<li>
-					<a href="beachInfo.html">Beach Info</a>
-				</li>
-				<li>
-					<a href="likedBeaches.html">Liked Beaches</a>
-				</li>
-				<li>
-					<a href="Filters.html">Filters</a>
-				</li>
-			</ul>
-		</nav>
+	<body class="body">
+		<div class="backgroundImage">
+			<div class="header">
+			
+				<h1 class="heading"> 
+					Wave Finder
+				</h1>
+				
+				<div class="exit">
+					<a href="index.html"><i class="fas fa-circle-xmark"></i></a>
+				</div>
+				<div class="filters">
+					<a href="Filters.html"><i class="fas fa-bars"></i></a>
+				</div>
+				<div class="likedBeach">
+					<a href="likedBeaches.html"><i class="fas fa-heart"></i></a>
+				</div>
+				
+			</div>
+			
+			<div class="slideshowContainer">
+				
+				<embed type="text/html" src="slideshows/belhavenSlideshow.html" class="embededHTML">
+				
+			</div>
+			
+			<div class="footer">
+			
+				
+			
+			</div>
+		</div>
 	</body>
 </html>
