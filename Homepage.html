@@ -9,13 +9,19 @@
 	</head>
 	
 	<body class="body">
+	
+		<!-- An element to allow the background image to appear -->
 		<div class="backgroundImage">
+		
+			<!-- An element to initialise the header of the file -->
+			<!-- This being inside the backgroundImage div allows it to sit ontop of it on the wweb page -->
 			<div class="header">
 			
 				<h1 class="heading"> 
 					Wave Finder
 				</h1>
 				
+				<!-- Links to the other parts of the site -->
 				<div class="exit">
 					<a href="index.html">Exit</a>
 				</div>
@@ -27,26 +33,31 @@
 			
 			<br>
 			
+			<!-- An element allowing the embedded html files of the other beaches to appear -->
+			<!-- id was used instead of class so that I could see what parts are being used by the js -->
 			<div id="slideshowContainer">
 				
 				<iframe id="embeddedPage" src="slideshows/belhavenSlideshow.html"></iframe>
 				
 			</div>
 			
+			<!-- Buttons to navigate between the different beaches embedded files -->
 			<div class="footer">
 			
 				<div class="buttons">
 				
 					<button class="prev" onClick="prevPage()">Previous Beach</button>
+					<!--<button class="like" onClick="likePage()">Like</button>-->
 					<button class="next" onClick="nextPage()">Next Beach</button>
 					
 				</div>
 				
-			
 			</div>
+			
 		</div>
 	</body>
 
+	<!-- Calling the java script file that hold the code to move between the different beach files -->
 	<script src="javaScript/homepage.js"></script>
 	
 </html>

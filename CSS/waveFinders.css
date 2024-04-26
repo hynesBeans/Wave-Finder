@@ -3,6 +3,7 @@ body, html {
 	margin: 0;
 }
 
+/* Setting the colours and placements for the background image */
 .backgroundImage {
 	background-image: linear-gradient(rgba(91, 189, 238, 0.5), rgba(91, 189, 238, 0.5)), url("../images/backgroundImage.jpg");
 	
@@ -14,6 +15,7 @@ body, html {
 	position: relative;
 }
 
+/* Styling the navigation buttons */
 .exit {
 	font-size: 36px;
 	
@@ -21,7 +23,6 @@ body, html {
 	top: 35px;
 	right: 150px;
 }
-
 .likedBeach {
 	font-size: 36px;
 	
@@ -29,7 +30,6 @@ body, html {
 	top: 35px;
 	right: 16px;
 }
-
 .homepage {
 	font-size: 36px;
 	
@@ -38,6 +38,7 @@ body, html {
 	right: 16px;
 }
 
+/* Styling the header */
 .heading {
 	background: rgba(87, 169, 211, 0.7);
 	padding: 5px;
@@ -54,6 +55,7 @@ body, html {
 	text-align: center;
 }
 
+/* Positioning the slideshow */
 #slideshowContainer {
 	padding: 5px;
 	
@@ -61,13 +63,13 @@ body, html {
 	justify-content: center;
 	align-items: center;
 }
-
 iframe {
 	width: 950px;
 	height: 720px;
 	border: none;
 }
 
+/* Positioning the next and prev buttons */
 .buttons {
 	position: absolute;
 	

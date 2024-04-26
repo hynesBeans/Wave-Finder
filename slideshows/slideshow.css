@@ -3,17 +3,14 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
-.container {
-	position: relative;
-	width: 50%;
-}
-
+/* Positioning for the container holding all the info */
 .slideshow-container {
 	max-width: 950px;
 	position: relative;
 	margin: auto;
 }
 
+/* Positioning and sttyling for the next and previous buttons */
 .prev, .next {
 	background-color: rgba();
 	cursor: pointer;
@@ -29,16 +26,16 @@ img {vertical-align: middle;}
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 }
-
 .next {
 	right: 6px;
 	border-radius: 3px 0 0 3px;
 }
-
+/* Making them dynamic with the mouse movement */
 .prev:hover, .next:hover {
 	background-color: rgba(0,0,0,0.8);
 }
 
+/* Positioning and styling of the dots */
 .dot {
 	cursor: pointer;
 	height: 15px;
@@ -49,16 +46,16 @@ img {vertical-align: middle;}
 	display: inline-block;
 	transition: background-color 0.6s ease;
 }
-
+/* Making them dynamic with the mouse movement */
 .active, .dot:hover {
 	background-color: rgb(113, 113, 113);
 }
 
+/* Creating the fade when going between images */
 .fade {
 	animation-name: fade;
 	animation-duration: 1.5s;
 }
-
 @keyframes fade {
 	from {opacity: .4} 
 	to {opacity: 1}
@@ -68,6 +65,7 @@ img {vertical-align: middle;}
 	.prev, .next,.text {font-size: 11px}
 }
 
+/* Positioning and styling the overlay of info on the beaches */
 .overlay {
 	position: absolute;
 	top: 0;
@@ -80,11 +78,9 @@ img {vertical-align: middle;}
 	height: 0;
 	transition: 0.5s ease;
 }
-
 .overlayContainer:hover .overlay {
 	height: 25%;
 }
-
 .overlayText {
 	color: white;
 	font-size: 20px;
